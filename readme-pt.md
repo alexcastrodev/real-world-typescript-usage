@@ -16,4 +16,6 @@ Sinta-se à vontade para navegar pelas pastas com base em seu interesse e ler o 
 
 ## Conteúdo
 
-- [Estendendo o Tipo de Elemento Nativo](./react_extends_native_element_type/readme.md)
+[Declarações de formas diferente para criar componentes](./react_naming_component)
+
+[Estendendo o Tipo de Elemento Nativo](./react_extends_native_element_type/readme.md)

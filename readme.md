@@ -18,4 +18,6 @@ You dont have to follow the folder in order. You can go to the folder you want a
 
 ## Contents
 
+[React naming component](./react_naming_component)
+
 [Extends Native Element Type](./react_extends_native_element_type)
