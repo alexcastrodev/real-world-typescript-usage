@@ -4,6 +4,9 @@ Usually when we are creating a component, we are using a native element like `di
 
 So if you are creating a Button component, you may use the `onClick` event, right?
 
+
+# The problem example
+
 So, people create something like this:
 
 ```tsx
@@ -27,6 +30,8 @@ But, it's not a good idea to create a interface that has the property `onClick` 
 
 Remember, ALL native element properties are already in Typescript, you dont need to create it again.
 
+# The solution example
+
 The best way to do this is to extends the native element type.
 
 ```tsx
@@ -48,6 +53,11 @@ const Button: React.FC<React.PropsWithChildren<ButtonProps>> = ({ onClick, title
   );
 }
 ```
+
+# Conclusion
+
+You can extends the native element type to use the native element properties.
+But remember, if you need a custom click event, you can create a custom property.
 
 ## Notes
 
