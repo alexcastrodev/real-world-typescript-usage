@@ -45,9 +45,9 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 // You can use Type as well, if you are not using custom property
 // type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>;
 
-const Button: React.FC<React.PropsWithChildren<ButtonProps>> = ({ onClick, title }) => {
+const Button: React.FC<React.PropsWithChildren<ButtonProps>> = ({ title, ...props }) => {
   return (
-    <button onClick={onClick}>
+    <button {...props}>
       {title}
     </button>
   );
