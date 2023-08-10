@@ -8,6 +8,25 @@ If you want to help follow this steps:
 3. Create a new branch
 4. Add your example in readme.md
 5. add a folder with your example in `readme.md` file
+
+Template:
+
+```
+# Introduction
+....
+
+# The problem example
+....
+
+# The solution example
+....
+
+# Conclusion
+....
+
+```
+
+
 6. Commit your changes
 7. Push your changes
 8. Create a pull request
